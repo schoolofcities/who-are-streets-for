@@ -272,7 +272,10 @@
 	<div class="text">
 
 		<p>
-			These bus lanes have been shown to improve travel times and reliability for transit users, while also reducing congestion for all road users. They are a clear example of how reallocating space can benefit everyone, not just those who drive. The King Street transit priority corridor showed similar benefits for transit travel times while proposed dedicated transit lanes on Dufferin St. and Bathurst St. south of Bloor St. are estimated to also improve transit travel times. (CLEAN UP PARAGRAPH, ADD LINKS)
+			These bus lanes have been shown to improve travel times and reliability for transit users, while also reducing congestion for all road users. They are a clear example of how reallocating space can benefit everyone, not just those who drive. (ADD SOURCES)
+		</p>
+		<p>	
+			Similarly, the King Street Transit Priority Corridor, in downtown Toronto, a globally recognized success, was fundamentally an exercise in reallocating road space from low-occupancy private vehicles to high-capacity streetcars. By making transit the primary focus, the project moves tens of thousands of people daily <a href="https://www.toronto.ca/services-payments/streets-parking-transportation/transportation-projects/king-street-pilot/data-reports-background-materials/" target="_blank">more efficiently and reliably than before</a>.
 		</p>
 		<p>
 			Toronto has approximately <strong>1,300 kilometres</strong> of highways, major arterial roads, and minor arterial roads. The vast majority of these roads have TTC surface transit routes and have ample space to add dedicated bus or streetcar lanes to speed up these routes. These roads will not truly be effective "arteries" until they are designed to prioritize people who ride public transit, instead of only motor vehicles.
@@ -295,6 +298,7 @@
 			Extrapolating from <a href="https://www.toronto.ca/services-payments/streets-parking-transportation/transportation-projects/rapidto/rapidto-bus-lanes/eglinton-east-bus-lanes/", target="_blank">City of Toronto reports of recent costs of bus lanes in Scaroborough</a> (<strong>$470,000 / km</strong>), adding dedicated transit lanes to half of the City's highway and arterial road network would cost approximately <strong>$305 Million</strong>. This is quite low when comparing to <a href="https://schoolofcities.utoronto.ca/wp-content/uploads/2025/04/Understanding-the-Drivers-of-Transit-Construction-Costs-in-Canada_Feb-2025_FINAL.pdf" target="_blank">rising costs of larger public transit infrastructure projects</a> across Canada. 
 			For example, the most recent cost estimate for the three-stop Scarborough Subway Extension is <strong>$5.5 Billion</strong> (<strong>$800,000,000 / km</strong>). This is not to say that dedicated surface transit lanes are a replacement for higher capacity public transit projects, but rather that they are a cost-effective way to improve transit service quickly as well as provide connections to potentially all neighbourhoods in city.
 		</p>
+		
 		<p>	
 			To be as successful possible, surface transit routes also require implementing measures like transit-priority signals and enforcement against illegal parking in dedicated transit lanes.
 		</p>
@@ -312,30 +316,31 @@
 		</p>
 
 		<p>
-			In the core, the costs go beyond opportunity. A University of Toronto report found that illegal on-street parking, including in no-parking zones, or double-parking, “reduces lane capacity and disrupts traffic flow, particularly during peak hours.” Their study found that even relatively short parking violations in the Financial District led to measurable increases in congestion and delays for all road users (UTTRI, 2017).
+			In the core, the costs go beyond opportunity. A <a href="https://uttri.utoronto.ca/wp-content/uploads/sites/19/2017/09/Impacts-of-Illegal-On-Street-Parking-on-Torontos-CBD-Congestion.pdf"  target="_blank">University of Toronto report</a> found that illegal on-street parking, including in no-parking zones, or double-parking, “reduces lane capacity and disrupts traffic flow, particularly during peak hours.” Their study found that even relatively short parking violations in the Financial District led to measurable increases in congestion and delays for all road users. Moreover, as <a href="https://www.theglobeandmail.com/opinion/editorials/article-the-hidden-costs-of-cheap-parking/" target="_blank">the Globe and Mail editorial board</a> noted, “road space at the curb is a valuable and limited commodity,” and giving it away cheap reflects “bad economics and bad politics”. 
 		</p>
-		<!-- https://www.theglobeandmail.com/opinion/editorials/article-the-hidden-costs-of-cheap-parking/ -->
 
 		<p>
-			How can on-street parking be converted to better uses? Protected cycling lanes, patios via CafeTO, green space, etc. ___ LANRICK ADD EXAMPLES AND DISCUSS BENEFITS
+			So how can on-street parking be converted to better uses?
+		</p>
+
+		<p>
+			A visible example is <a href="https://www.toronto.ca/business-economy/business-operation-growth/business-support/cafeto-outdoor-dining/" target="_blank">CaféTO</a>, which has repeatedly demonstrated how curb lanes can be transformed from storage for a single idle vehicle into vibrant patios serving dozens of people, acting as a lifeline for local restaurants and creating new social hubs. The City has also formalized this concept through its  <a href="https://www.toronto.ca/wp-content/uploads/2019/08/949e-Cafe-Application-Package-Final.pdf">Parklet Program</a>, which provides official guidelines for converting individual parking spots into mini public parks, complete with seating and greenery, proving that even small-scale interventions can inject life and community onto a street. Climate resilience is improving by reclaiming pavement; through its <a href="https://www.toronto.ca/services-payments/streets-parking-transportation/enhancing-our-streets-and-public-realm/green-streets/green-infrastructure-resources/">Green Infrastructure program</a>, Toronto is now building <a href="https://www.toronto.ca/wp-content/uploads/2021/08/8e5e-ecs-specs-gi-dwgs-T-850.111-Rev0-Sep2021.pdf">bioswales</a> in the space once occupied by asphalt curb lanes to absorb stormwater and provide green space to neighbourhoods.
+		</p>
+
+		<p>
+			This principle of reallocation has been scaled up with transformative results for transportation. Along major corridors like <a href="https://www.toronto.ca/explore-enjoy/parks-recreation/activeto/activeto-expanding-the-cycling-network/">Bloor Street, University Avenue, Danforth Avenue, and Yonge Street</a>, the installation of protected bike lanes came from directly repurposing space previously dedicated to on-street parking. This represents a clear policy choice: prioritizing the safe movement of thousands of cyclists over the storage of a few dozen cars.
 		</p>
 		
 		<p>
-			<i><b>Add 4 photos here of examples of parking into better uses<br>(1 of a nice protected bike lane, 2 cafeTO, 3 seating/plaza, 4 green buffer or garden)</b></i>
+			<i><b>Add 4 photos here of examples of parking into better uses<br>(1 of a nice protected bike lane, 2 cafeTO, 3 seating/plaza, 4 green buffer or parklet)</b></i>
 		</p>
 
 		<p>
-			What about the costs? Funds from strategies like demand-based parking pricing, increased traffic enforcement, and/or congestion charges could generate ample revenue to re-design Toronto streets.
-			Demand-based pricing. LANRICK TO ADD.
-
-			<a href="https://schoolofcities.github.io/king-street-toronto/traffic-violations" target="_blank">Previous School of Cities research found that lack of enforcement on the King Street transit priority corridor</a> is leading to about <strong>$750,000</strong> of lost revenue per day, based on data from the City of Toronto and Toronto Police.
-
-			Similarly, we have <a href="https://schoolofcities.utoronto.ca/could-congestion-pricing-unlock-a-better-toronto/">estimated the potential income of congestion pricing</a>, based on recent travel survey data that a $9 fee for driving into central Toronto would generate over <strong>$2.0 million</strong> per day in revenue. 
+			What about the costs? Funds from strategies like demand-based parking pricing, increased traffic enforcement, and congestion charges could each generate ample revenue to re-design Toronto streets.
+			Demand-based pricing for on-street parking. LANRICK TO ADD ABOUT DETAILS...
+			Better enforcement, particularly via cameras could lead to substantial revenue. <a href="https://schoolofcities.github.io/king-street-toronto/traffic-violations" target="_blank">Previous School of Cities research found that lack of enforcement on the King Street transit priority corridor</a> is leading to about <strong>$750,000</strong> of lost revenue per day, based on data from the City of Toronto and Toronto Police.
+			Similarly, in our previous work, we <a href="https://schoolofcities.utoronto.ca/could-congestion-pricing-unlock-a-better-toronto/">estimated the potential income of congestion pricing</a>, based on recent travel survey data that a $9 fee for driving into central Toronto would generate over <strong>$2.0 million</strong> per day in revenue. 
 		</p>
-
-		<!-- <p>
-			One critique on adding cycling infrastructure is that it impacts emergency vehicle access. However, this is not true when designed properly. Data on recent Bloor St. West bike lanes do not show ____
-		</p> -->
 
 	</div>
 
