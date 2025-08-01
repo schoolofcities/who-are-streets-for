@@ -12,3 +12,4 @@ TO DO
 - maybe add ward-level gap map
 - 4 photos
 - write description of methods
+- fix mobile view
