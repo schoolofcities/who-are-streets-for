@@ -224,9 +224,9 @@
 			<!-- It shapes so much of what people experience outside our cars and makes walking or biking feel precarious, even when it's already how many people prefer to move. -->
 		</p>
 
-		<p>
+		<!-- <p>
 			LANRICK TEXT WHY ALLOCATING SO MUCH SPACE FOR CARS IS BAD
-		</p>
+		</p> -->
 
 		<p>
 			<i>BEGIN TRANSISSION FROM NEGATIVE TO POSITIVE, PROBLEM TO SOLUTION</i>
@@ -242,7 +242,7 @@
 		</h2>
 
 		<p>
-			Toronto already has implemented a number of low-cost options for re-designing our streets. These can help re-balance inequalities of space allocated to different travel modes and .... LANRICK ADD TEXT FOR WHY DOING SO IS IMPORTANT FOR EQUITY, CLIMATE, SAFETY, HAPPINESS, RESILIANCE, ETC.
+			Toronto already has implemented a number of low-cost options for re-designing our streets. These can help re-balance inequalities of space allocated to different travel modes and .... ... 
 		</p>
 		<p>
 			A positive of our findings above is that even though it accounts for a very small minority of space, many residents, for various reasons, opt to walk, cycle, or take transit, indicating that if more space were allocated for these modes, it would not only reduce inequalities, but likely lead to mode shifting as well. REWORD THIS?? 
@@ -298,7 +298,7 @@
 			Extrapolating from <a href="https://www.toronto.ca/services-payments/streets-parking-transportation/transportation-projects/rapidto/rapidto-bus-lanes/eglinton-east-bus-lanes/", target="_blank">City of Toronto reports of recent costs of bus lanes in Scaroborough</a> (<strong>$470,000 / km</strong>), adding dedicated transit lanes to half of the City's highway and arterial road network would cost approximately <strong>$305 Million</strong>. This is quite low when comparing to <a href="https://schoolofcities.utoronto.ca/wp-content/uploads/2025/04/Understanding-the-Drivers-of-Transit-Construction-Costs-in-Canada_Feb-2025_FINAL.pdf" target="_blank">rising costs of larger public transit infrastructure projects</a> across Canada. 
 			For example, the most recent cost estimate for the three-stop Scarborough Subway Extension is <strong>$5.5 Billion</strong> (<strong>$800,000,000 / km</strong>). This is not to say that dedicated surface transit lanes are a replacement for higher capacity public transit projects, but rather that they are a cost-effective way to improve transit service quickly as well as provide connections to potentially all neighbourhoods in city.
 		</p>
-		
+
 		<p>	
 			To be as successful possible, surface transit routes also require implementing measures like transit-priority signals and enforcement against illegal parking in dedicated transit lanes.
 		</p>
@@ -337,8 +337,17 @@
 
 		<p>
 			What about the costs? Funds from strategies like demand-based parking pricing, increased traffic enforcement, and congestion charges could each generate ample revenue to re-design Toronto streets.
-			Demand-based pricing for on-street parking. LANRICK TO ADD ABOUT DETAILS...
+		</p>
+
+		<p>
+			Demand-based pricing for on-street parking. 
+		</p>
+
+		<p>
 			Better enforcement, particularly via cameras could lead to substantial revenue. <a href="https://schoolofcities.github.io/king-street-toronto/traffic-violations" target="_blank">Previous School of Cities research found that lack of enforcement on the King Street transit priority corridor</a> is leading to about <strong>$750,000</strong> of lost revenue per day, based on data from the City of Toronto and Toronto Police.
+		</p>
+
+		<p>	
 			Similarly, in our previous work, we <a href="https://schoolofcities.utoronto.ca/could-congestion-pricing-unlock-a-better-toronto/">estimated the potential income of congestion pricing</a>, based on recent travel survey data that a $9 fee for driving into central Toronto would generate over <strong>$2.0 million</strong> per day in revenue. 
 		</p>
 
@@ -352,7 +361,7 @@
 		</h3>
 
 		<p>
-			What are open streets / pedestrianization of streets - discuss benefits - LANRICK TO ADD TEXT
+			What are open streets / pedestrianization of streets - discuss benefits - 
 		</p>
 
 		<p>
@@ -430,9 +439,9 @@
 			Cost should not be a barrier, since as we noted, the cost of prioritizing surface public transit, re-allocating on-street parking, and opening streets is relatively quite small – especially when comparing to major infrastructure projects. Moreover, costs could be covered by more intelligent parking pricing and better enforcement.
 		</p>
 
-		<p>
+		<!-- <p>
 			LANRICK WRITES ABOUT POLITICAL CHALLENGES... CAR BRAIN BIASES... (EDIT ANY TEXT BELOW, CURRENTLY COPY-PASTED BOTH OUR TEXT)
-		</p>
+		</p> -->
 
 		<p>
 			A major challenge is shifting from the political status quo, which greatly favours those with access to private motor vehicles and maintains infrastructure that privileges their convenience over equity and community benefit.
