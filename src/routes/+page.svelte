@@ -10,6 +10,7 @@
 	import TitleStandard from '$lib/TitleStandard.svelte';
 	import AuthorDate from '$lib/AuthorDate.svelte';
 	import ImageSingle from '$lib/ImageSingle.svelte';
+	import VideoSingle from '$lib/VideoSingle.svelte';
 	import GraphicSingle from '$lib/GraphicSingle.svelte';
 	import GraphicsMultiples from '$lib/GraphicMultiples.svelte';
 	import Footer from '$lib/Footer.svelte';
@@ -60,7 +61,7 @@
 </svelte:head>
 
 
-<Password/>
+<!-- <Password/> -->
 
 <main>
 
@@ -266,6 +267,8 @@
 		<div class="caption-container">
 			<p>
 				<span class="caption-source">
+					Note that these maps show just one method for helping to prioritizing new infrastructure, but there are others as well (safety, equity, air quality, cost, etc.)
+					<br><br>
 					Data were linked to Wards via areal interpolation. For travel mode share data, this was based on smaller neighbourhood-sized zones. For more maps on how people travel in the Toronto region at this zonal level, check out our <a href="https://schoolofcities.github.io/transportation-tomorrow-survey/" target="_blank">interactive map</a>.
 				</span>
 			</p>
@@ -426,15 +429,17 @@
 			Many cities, e.g. Montreal open dozens of streets for months of the year. Toronto only has Market St (summer), Willcocks St (year round), maybe 1 or 2 more???? and occasional weekend festivals. 
 		</p>
 
-		<p>
-			<i><b>Add here School of Cities video reel of open street in Calgary design by local school</b></i>
-		</p>
-
-		<p>
-
-		</p>
-
 	</div>
+
+	<VideoSingle
+		videoURL="./video/connaught.mp4"
+		caption="Connaught Ave. open street in Calgary, Alberta."
+		source="Video by Kosta Diochonos, School of Cities. <a href='https://www.instagram.com/reel/DNQ6ECVtQsx/?igsh=N3p0bmw5enZtYWd3' target='_blank'>Instagram</a></VideoSingle> / <a href='https://vt.tiktok.com/ZSSvUufYv/' target='_blank'>TikTok</a></VideoSingle>"
+		altText="Short demo video"
+		maxWidth="340px"
+		playbackRate={1}
+		showControls={false}
+	/>
 
 
 	<div class="text">
