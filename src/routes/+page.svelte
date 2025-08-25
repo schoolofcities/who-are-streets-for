@@ -544,8 +544,6 @@
 			Imagine walking down a curb that is not a lane of cars, but a widened sidewalk filled with planters. Imagine biking on a protected lane unblocked by parked vehicles, or catching a bus that arrives on time because its path is clear.	This isn't a distant dream. When we choose to design streets for people, we build a safer, greener, and more equitable Toronto for everyone, starting with the public space that actually serves all its residents.
 		</p>
 		
-        <!-- <Footnotes footnotes={footnotes} /> -->
-
 		<br>
 
 		<div class="details">
@@ -553,7 +551,7 @@
 			<h2>Acknowledgements</h2>
 
 			<p>
-				We would like to thank Mia Wang for providing data analysis and GIS support for this project; OpenStreetMap contributors as well as the City of Toronto for sharing open data that allowed for the analysis; Andy Woodruff and Daniel Romm who created excellent maps other cities that inspired parts this project; Geoffrey Anhorn and Kosta Diochnos for providing videos; and ____ for their comments and feedback ... ...
+				We would like to thank Mia Wang for providing data analysis and GIS support for this project; OpenStreetMap contributors as well as the City of Toronto for sharing open data that allowed for the analysis; Andy Woodruff and Daniel Romm who created excellent maps of other cities that inspired parts this project; Geoffrey Anhorn and Kosta Diochnos for providing videos; and ____ for their comments and feedback ... ...
 			</p>
 
 		</div>
