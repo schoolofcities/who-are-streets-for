@@ -61,7 +61,7 @@
 </svelte:head>
 
 
-<!-- <Password/> -->
+<Password/>
 
 <main>
 
