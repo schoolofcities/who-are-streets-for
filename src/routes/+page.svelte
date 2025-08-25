@@ -433,7 +433,7 @@
 
 	<VideoSingle
 		videoURL="./video/connaught.mp4"
-		caption="Connaught Ave. open street in Calgary, Alberta."
+		caption="Connaught School Open Street in Calgary, Alberta."
 		source="Video by Kosta Diochonos, School of Cities. <a href='https://www.instagram.com/reel/DNQ6ECVtQsx/?igsh=N3p0bmw5enZtYWd3' target='_blank'>Instagram</a></VideoSingle> / <a href='https://vt.tiktok.com/ZSSvUufYv/' target='_blank'>TikTok</a></VideoSingle>"
 		altText="Short demo video"
 		maxWidth="340px"
