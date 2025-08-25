@@ -384,29 +384,34 @@ def process_svg(input_svg_path, output_svg_path, font_map):
 
 
 
-# svg_to_convert = [
-# 	["../routes/greensboro-nc/assets/greensboro-grocery-360.svg", "../../static/greensboro-nc/greensboro-grocery-360.svg"],
-# 	["../routes/greensboro-nc/assets/greensboro-grocery-1080.svg", "../../static/greensboro-nc/greensboro-grocery-1080.svg"]
-# ]
+svg_to_convert = [
+	["../../local_data/space/data/corridor-map-1080.svg", "../../static/images/corridor-map-1080.svg"],
+	["../../local_data/space/data/corridor-map-720.svg", "../../static/images/corridor-map-720.svg"],
+	["../../local_data/space/data/corridor-map-360.svg", "../../static/images/corridor-map-360.svg"],
+	["../../local_data/space/data/mode-map-cycling-360.svg", "../../static/images/mode-map-cycling-360.svg"],
+	["../../local_data/space/data/mode-map-walk-360.svg", "../../static/images/mode-map-walk-360.svg"],
+	["../../local_data/space/data/mode-map-transit-360.svg", "../../static/images/mode-map-transit-360.svg"],
+	["../../local_data/space/data/mode-map-car-360.svg", "../../static/images/mode-map-car-360.svg"]
+]
 
 # INPUT_SVG_PATH = "../routes/bridgeport-ct/assets/map-asthma-360.svg"
 # OUTPUT_SVG_PATH = "../routes/bridgeport-ct/assets/map-asthma-360-web.svg"
 
-# if __name__ == "__main__":
-# 	for svg in svg_to_convert:
-# 		process_svg(svg[0], svg[1], FONT_MAP)
-
-
-from pathlib import Path
-
-def main():
-	city = "halifax-ns"
-	input_dir = "../routes/" + city + "/assets"  
-	output_dir = "../../static/"  + city + "/web-svg"
-
-	for svg_file in Path(input_dir).glob("*.svg"):
-		output_path = Path(output_dir) / svg_file.name
-		process_svg(svg_file, output_path, FONT_MAP)
-
 if __name__ == "__main__":
-	main()
+	for svg in svg_to_convert:
+		process_svg(svg[0], svg[1], FONT_MAP)
+
+
+# from pathlib import Path
+
+# def main():
+# 	city = "halifax-ns"
+# 	input_dir = "../routes/" + city + "/assets"  
+# 	output_dir = "../../static/"  + city + "/web-svg"
+
+# 	for svg_file in Path(input_dir).glob("*.svg"):
+# 		output_path = Path(output_dir) / svg_file.name
+# 		process_svg(svg_file, output_path, FONT_MAP)
+
+# if __name__ == "__main__":
+# 	main()

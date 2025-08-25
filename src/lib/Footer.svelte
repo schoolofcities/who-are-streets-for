@@ -25,12 +25,12 @@
 
 .footer {
 	width: 100%;
-	background-color: var(--brandDarkBlue);
+	background-color: var(--brandGray90);
 	margin-top: 100px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	text-align: center; 
-	border-top: solid 1px var(--brandGray);
+	border-top: solid 1px var(--brandYellow);
 }
 
 .footer-content {

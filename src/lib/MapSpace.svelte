@@ -88,7 +88,7 @@
 	</div>
 
 	<p>
-		Data from <a href="https://open.toronto.ca/" target="_blank">City of Toronto</a> and <a href="https://www.openstreetmap.org/#map=14/43.66710/-79.38875" target="_blank">OpenStreetMap</a>. Map data are from various collection periods (2019-2025) and may not reflect very recent changes to the built environment (e.g. Portlands redevelopment). Map created using QGIS and Leaflet.
+		Data from <a href="https://open.toronto.ca/catalogue/?search=topographic%20mapping&sort=score%20desc" target="_blank">City of Toronto</a> and <a href="https://www.openstreetmap.org/#map=14/43.66710/-79.38875" target="_blank">OpenStreetMap</a>. Map data are from various collection periods (2019-2025) and may not reflect very recent changes to the built environment (e.g. Portlands redevelopment). Map created using QGIS and Leaflet. This map was inspired by a similar <a href="https://bsky.app/profile/awoodruff.bsky.social/post/3lf3thrkka226" target="_blank">map of Cincinatti by Andy Woodruff</a>.
 	</p>
 
 </div>
@@ -100,7 +100,7 @@
 	.legend-container {
 		margin: 0 auto;
 		max-width: 680px;
-		width: 100%;
+		width: calc(100% - 40px);
 		margin-top: 20px;
 		margin-bottom: 20px;
 		padding-left: 20px;
@@ -138,7 +138,7 @@
 	.map-container {
 		margin: 0 auto;
 		margin-top: 20px;
-		margin-bottom: 80px;
+		margin-bottom: 100px;
 		width: 100%;
 		max-width: 1440px;
 		height: calc(75dvh);
@@ -156,6 +156,7 @@
 		font-family: OpenSans;
 		font-weight: normal;
 		color: var(--brandGray60);
+		max-width: 900px;
 		font-size: 12px;
 		line-height: 18px;
 		margin-top: 2px;

@@ -93,7 +93,7 @@
 		gap: 20px;
 		justify-content: center;
 		max-width: 100%;
-		margin: 5px;
+		margin: 10px;
 	}
 
 	.image-pair {
@@ -103,6 +103,7 @@
 
 	.pair-title {
 		font-size: 14px;
+		line-height: 18px;
 		font-family: OpenSansItalic;
 		padding-left: 15px;
 		margin-bottom: 0px;
@@ -146,6 +147,7 @@
 		max-width: 490px;
 		width: 100%;
 		border-top: solid 1px var(--brandGray);
+		margin-bottom: 30px;
 	}
 
 	.note p {
