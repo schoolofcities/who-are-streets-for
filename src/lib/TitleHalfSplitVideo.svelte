@@ -7,11 +7,14 @@
 	export let subtitle = '';
 	export let video = ''; 
 	export let videoAltText = '';
+	export let videoCaption = '';
+	export let videoSource = '';
 	export let titleFontColour = 'var(--brandDarkBlue)';
 	export let titleBorderColour = 'var(--brandDarkBlue)';
 	export let subtitleFontColour = 'var(--brandDarkBlue)';
 	export let backgroundColour = 'var(--brandWhite)';
 	export let logoStyle = 'Light'; // 'Light' or 'Dark' or 'None'
+
 </script>
 
 <div class="container">
@@ -43,13 +46,21 @@
 	</div>
 </div>
 
+{#if videoCaption || videoSource}
+
+	<p class="img-caption" >{@html videoCaption} <span id="image-source">{@html videoSource}</span></p>
+	
+{/if}
+
+<div class="spacer"></div>
+
 <style>
 	.container {
 		display: flex;
 		height: 100vh;
 		width: calc(100% - 0px);
-		border-bottom: solid 1px var(--brandMedGreen);
-		margin-bottom: 70px;
+		border-bottom: solid 1px var(--brandGray50);
+		margin-bottom: 0px;
 		z-index: 20;
 	}
 
@@ -184,4 +195,43 @@
 			height: calc(100vh + 200px);
 		}
 	}
+
+	p {
+		text-align: right;
+		padding-right: 3px;
+		margin: 0px;
+		box-sizing: border-box;
+		width: 100%;
+		font-family: OpenSansBold;
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.img-caption {
+		font-family: OpenSansBold;
+		font-weight: normal;
+		color: var(--brandGray70);
+		margin-top: 2px;
+		margin-bottom: 0px;
+		padding-top: 0px;
+	}
+
+	#image-source {
+		font-family: OpenSans;
+		font-weight: normal;
+		color: var(--brandGray50);
+	}
+
+	.spacer {
+		background-color: none;
+		height: 50px;
+	}
+
+	@media (max-width: 500px) {
+		p {
+			font-size: 10px;
+		}
+	}
+
 </style>

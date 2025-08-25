@@ -20,19 +20,19 @@
 	import BarMode from '$lib/BarMode.svelte';
 
 	
-	import Footnote from '$lib/Footnote.svelte';
-    import Footnotes from '$lib/Footnotes.svelte';
-    import { createFootnoteStore } from '$lib/footnoteUtils';
+	// import Footnote from '$lib/Footnote.svelte';
+    // import Footnotes from '$lib/Footnotes.svelte';
+    // import { createFootnoteStore } from '$lib/footnoteUtils';
 
-	const footnoteStore = createFootnoteStore();
-    const { footnotes, addFootnote } = footnoteStore;
+	// const footnoteStore = createFootnoteStore();
+    // const { footnotes, addFootnote } = footnoteStore;
 
-	const fns = [
-		'Hello I am a footnote',
-		'Hello I am a second <a href="https://example.com" target="_blank">footnote</a> with a link',
-		'Author (Year) Publication information etc this might be a citation or a reference to a source',
-		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat lacus eu dolor dapibus sodales. Aenean venenatis metus id eleifend tincidunt. Nulla ut lacus et urna finibus bibendum sit amet et ante. Aliquam tristique, ex sed porttitor hendrerit, ex odio accumsan ex, eu maximus leo quam quis nulla.'
-	];
+	// const fns = [
+	// 	'Hello I am a footnote',
+	// 	'Hello I am a second <a href="https://example.com" target="_blank">footnote</a> with a link',
+	// 	'Author (Year) Publication information etc this might be a citation or a reference to a source',
+	// 	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat lacus eu dolor dapibus sodales. Aenean venenatis metus id eleifend tincidunt. Nulla ut lacus et urna finibus bibendum sit amet et ante. Aliquam tristique, ex sed porttitor hendrerit, ex odio accumsan ex, eu maximus leo quam quis nulla.'
+	// ];
 
 </script>
 
@@ -98,6 +98,8 @@
 		subtitle="81% of street space in Toronto is inequitably dedicated to motor vehicles. How can this be fairly re-designed?"
 		video="./video/citymovingpicture.mp4"
 		videoAltText="A photo"
+		videoCaption="College St., Toronto."
+		videoSource="Video by Geoffrey Anhorn."
 		titleFontColour="var(--brandWhite)"
 		titleBorderColour="var(--brandYellow)"
 		subtitleFontColour="var(--brandWhite)"
@@ -238,7 +240,7 @@
 		<div class="caption-container">
 			<p>
 				<span class="caption-source">
-					<i>Data notes:</i> Local trips encompass all trips {"<5km"}. Trips are grouped by the primary mode of each trip (i.e. a trip where someone is driven to a subway station, takes the subway, and then walks to their final destination is classified as "Transit"). Since the majority of trips include walking (e.g. to/from transit, to/from parking a car are bicycle, etc.), the % of trips by walking is likely under-estimated. About 2% of trips are taken by 'Other' modes (e.g. school bus, motorcycle, e-scooter, etc.) that are not shown for sake of brevity.
+					<i>Data notes:</i> Local trips encompass all trips {"<5km"}. Trips are grouped by the primary mode of each trip (e.g. a trip where someone is driven to a subway station, takes the subway, and then walks to their final destination is classified as "Transit"). Since the majority of trips include walking (e.g. to/from transit, to/from parking a car are bicycle, etc.), the % of trips by walking is likely under-estimated. About 2% of trips are taken by 'Other' modes (e.g. school bus, motorcycle, e-scooter, etc.) that are not shown for sake of brevity.
 				</span>
 			</p>
 		</div>
