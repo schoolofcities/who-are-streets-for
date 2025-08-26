@@ -420,15 +420,23 @@
 	<div class="text">
 
 		<h3>
-			Open streets
+			Open Streets: Reclaiming Roads for People
 		</h3>
 
 		<p>
-			What are open streets / pedestrianization of streets - discuss benefits - 
+			Open Streets programs flip the script on who streets are really for. Instead of prioritizing cars, these events temporarily close major roads to traffic and invite people to walk, bike, roll, dance, or simply gather. The impact is immediate: streets become safe, sociable, and vibrant.
 		</p>
 
 		<p>
-			Many cities, e.g. Montreal open dozens of streets for months of the year. Toronto only has Market St (summer), Willcocks St (year round), maybe 1 or 2 more???? and occasional weekend festivals. 
+			<a href="https://www.openstreetsto.org/" target="_blank">Toronto’s Open Streets</a> program, which began as a small pilot in 2014, has shown glimpses of what’s possible. On Yonge and Bloor, families, newcomers, and seniors alike have filled the roadway, discovering how much more welcoming the city feels without car traffic dominating every metre of space (Open Streets TO, 2014). Although these events remain limited in duration and frequency, they highlight a demand for streets that support community life, not just vehicle flow.
+		</p>
+
+		<p>
+			What’s more, Toronto already has the tools to go further. In 2025, the City and the Toronto Association of Business Improvement Areas (TABIA) released <a href="https://www.toronto-bia.com/wp-content/uploads/2025/06/Pedestrian-Streets-BIA-June-10-2025.pdf" target="_blank">Pedestrian Streets: Policy & Guidelines</a>, offering BIAs and neighbourhoods a roadmap for transforming roadways into pedestrian-friendly public spaces. So far, however, these initiatives have mostly been tied to street festivals and short-term pilots, a few days at a time rather than sustained or seasonal transformations.
+		</p>
+
+		<p>
+			Other cities have demonstrated what happens when these programs scale up. In Bogotá, the world-renowned <a href="https://www.researchgate.net/publication/45629811_The_Ciclovia-Recreativa_A_Mass-Recreational_Program_With_Public_Health_Potential#:~:text=The%20Ciclov%C3%ADa%2DRecreativa%20is%20a,%2C%20rollerbladers%2C%20and%20cyclists%20only." target="_blank">Ciclovía</a> engages millions each Sunday and is credited with delivering more than three dollars in public health benefits for every dollar invested. Montreal, meanwhile, has reimagined Open Streets into a seasonal tradition: each summer, <a href="https://www.cbc.ca/news/canada/montreal/pedestrian-streets-summer-1.7544589" target="_blank">avenues like Mont-Royal and Wellington</a> transform into <a href="https://montreal.ca/en/articles/pedestrian-streets-liven-city-summer-31971" target="_blank">pedestrian promenades</a> filled with patios, art, and performances. In 2025, the city went further by permanently pedestrianizing a stretch of <a href="https://www.cbc.ca/news/canada/montreal/ste-catherine-east-pedestrian-street-1.7615675" target="_blank">Sainte-Catherine St. East</a> in the Village, adding trees, green space, and public seating to create a cultural hub year-round.
 		</p>
 
 	</div>
@@ -443,8 +451,11 @@
 		showControls={false}
 	/>
 
-
 	<div class="text">
+
+		<p>
+			In Toronto, scaling up Open Streets would require political will more than money. The city already has the infrastructure, a policy framework, and organizational know-how, and public demand for safe, people-friendly streets is clear. Making these transformations of the public realm more frequent and expanding them to additional neighbourhoods could help rebalance inequities in who gets to use our most valuable public space. 
+		</p>
 
 		<h2>
 			Residents are supportive of change

@@ -33,6 +33,7 @@
 		{autoplay}
 		{loop}
 		{muted}
+		preload="none"
 		aria-label={altText}
 	>
 		Apologies, your browser doesn’t support embedded videos.
