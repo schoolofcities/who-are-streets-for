@@ -61,7 +61,7 @@
 </svelte:head>
 
 
-<Password/>
+<!-- <Password/> -->
 
 <main>
 
@@ -131,6 +131,13 @@
 			authors="<a href='' target='_blank'>Jeff Allen</a> & <a href='' target='_blank'>Lanrick Bennit Jr.</a>"
 			date="August 2025"
 		/>
+
+		<div class="caption-container" style="margin-top: -25px; margin-bottom: 25px;">
+			<p style="font-size: 13.5px; color: #727272">
+				<span class="caption-text"><i>Jeff Allen led the mapping and data analysis; Lanrick Bennet Jr. led the majority of the writing and contextual research.</i></span>
+			</p>
+			<br>
+		</div>
 
 		<p>
 			Walk down almost any Toronto street and it becomes clear who it’s built for. Sidewalks are narrow, often cracked or cluttered with utility poles and sandwich boards. Protected bike lanes and dedicated surface transit routes remain limited and disconnected. Meanwhile, multi-lane roads dominate the urban landscape, often surrounded by a sea of parking lots. 
@@ -269,9 +276,9 @@
 		<div class="caption-container">
 			<p>
 				<span class="caption-source">
-					Note that these maps show just one method for helping to prioritizing new infrastructure, but there are others as well (safety, equity, air quality, cost, etc.)
+					These maps show just one way that could help prioritize new infrastructure (mismatch of supply and demand), but there are other important factors as well (safety, equity, air quality, cost, network connectivity, etc.) that are often considered by planners and engineers.
 					<br><br>
-					Data were linked to Wards via areal interpolation. For travel mode share data, this was based on smaller neighbourhood-sized zones. For more maps on how people travel in the Toronto region at this zonal level, check out our <a href="https://schoolofcities.github.io/transportation-tomorrow-survey/" target="_blank">interactive map</a>.
+					For these maps, the data on mode share and space allocation were linked to Wards via areal interpolation. For travel mode share data, this was originally collected at smaller neighbourhood-sized zones. For more maps on how people travel in the Toronto region at this smaller zonal level, check out our <a href="https://schoolofcities.github.io/transportation-tomorrow-survey/" target="_blank">interactive map</a>.
 				</span>
 			</p>
 		</div>
