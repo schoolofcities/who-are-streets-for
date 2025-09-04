@@ -10,7 +10,11 @@
 
 </script>
 
-<div class="img-container" style="max-width: {maxWidth}">
+<div 
+	class="img-container" 
+	style="max-width: {maxWidth};"
+>
+
 	{#if link === 'Yes'}
 		<a href={imageURL} target="_blank">
 			<img src={imageURL} alt={altText} loading="lazy" />
@@ -18,7 +22,14 @@
 	{:else}
 		<img src={imageURL} alt={altText} loading="lazy" />
 	{/if}
-	<p class="img-caption" >{@html caption} &nbsp; <span id="image-source">{@html source}</span></p>
+
+	<div class="caption-container">
+		<p>
+			<span class="caption-text">{@html caption}</span>
+			<span class="caption-source">{@html source}</span>
+		</p>
+	</div>
+	
 </div>
 
 <style>
@@ -27,16 +38,18 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: 100%;
 		margin: 0 auto;
 		padding-top: 10px;
 		padding-bottom: 0px;
+		margin-bottom: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 
 	img {
 		width: 100%;
 		height: auto;
-		max-height: 80%;
+		max-height: 80dvh;
 		min-height: 200px;
 		display: block;
 		object-fit: cover;
@@ -56,37 +69,6 @@
 		width: 100%;
 		height: auto;
 		display: block;
-	}
-
-	p {
-		text-align: left;
-		padding-left: 1px;
-		margin: 0px;
-		box-sizing: border-box;
-		width: 100%;
-	}
-
-	.img-caption {
-		font-family: OpenSansBold;
-		font-weight: normal;
-		color: var(--brandGray70);
-		font-size: 12px;
-		line-height: 18px;
-		margin-top: 2px;
-		margin-bottom: 0px;
-		padding-top: 0px;
-	}
-
-	#image-source {
-		font-family: OpenSans;
-		font-weight: normal;
-		color: var(--brandGray50);
-	}
-
-	@media screen and (max-width: 600px) {
-		p {
-			padding-left: 20px;
-		}
 	}
 
 </style>

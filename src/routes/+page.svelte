@@ -61,7 +61,7 @@
 </svelte:head>
 
 
-<!-- <Password/> -->
+<Password/>
 
 <main>
 
@@ -96,10 +96,12 @@
 	<TitleHalfSplitVideo
 		title="Who are streets for?"
 		subtitle="81% of street space in Toronto is inequitably dedicated to motor vehicles. How can this be fairly re-designed?"
-		video="./video/citymovingpicture.mp4"
+		video="./video/Cycling street college street_v3 1.mp4"
 		videoAltText="A photo"
 		videoCaption="College St., Toronto."
 		videoSource="Video by Geoffrey Anhorn."
+		videoStart = 5
+		videoSpeed = 1.5
 		titleFontColour="var(--brandWhite)"
 		titleBorderColour="var(--brandYellow)"
 		subtitleFontColour="var(--brandWhite)"
@@ -119,7 +121,6 @@
 		maxWidth="680px"
 	/>
 
-
 	<TitleStandard
 		title="Fun Captivating Project Title"
 		subtitle="Maybe a slightly longer more detailed wordier project subtitle "
@@ -128,13 +129,13 @@
 	<div class="text">
 
 		<AuthorDate
-			authors="<a href='' target='_blank'>Jeff Allen</a> & <a href='' target='_blank'>Lanrick Bennit Jr.</a>"
-			date="August 2025"
+			authors="<a href='' target='_blank'>Jeff Allen</a>, <a href='' target='_blank'>Lanrick Bennit Jr.</a>, <a href='' target='_blank'>Mia Wang</a>"
+			date="September 2025"
 		/>
 
 		<div class="caption-container" style="margin-top: -25px; margin-bottom: 25px;">
-			<p style="font-size: 13.5px; color: #727272">
-				<span class="caption-text"><i>Jeff Allen led the mapping and data analysis; Lanrick Bennet Jr. led the majority of the writing and contextual research.</i></span>
+			<p style="font-size: 13.7px; color: #4d4d4d">
+				<span class="caption-text"><i>Jeff Allen led the mapping and data analysis; Lanrick Bennet Jr. led the majority of the writing and contextual research; Mia Wang provided data collection and analysis support.</i></span>
 			</p>
 			<br>
 		</div>
@@ -150,7 +151,7 @@
 			The answer, backed by a close look at the data and geography, reveals deep inequities in how Toronto allocates outdoor space. Whether you walk, bike, take transit or drive, the way public land is distributed has serious implications for how we move, how safe we feel, and who can access opportunities in this city.
 		</p>
 		<p>
-			This city-wide map shows it clearly: roads and surface parking lots dominate Toronto’s public realm in most neighbourhoods. In total, more than 125 square kilometres of land in Toronto is dedicated to motor vehicles (approximately 20% of the City's total land area), that's over 360 Trinity Bellwoods Parks.
+			This city-wide map shows it clearly: roads and surface parking lots dominate Toronto’s public realm in most neighbourhoods. In total, more than 125 square kilometres of land in Toronto is dedicated to motor vehicles (approximately 20% of the City's total land area) – that's over 360 Trinity Bellwoods Parks.
 		</p>
 
 	</div>
@@ -163,7 +164,7 @@
 			A disconnect between space and travel patterns
 		</h2>
 		<p>
-			The following map shows every transportation segment in Toronto; streets, highways, laneways, sidewalks, paths, trails, and public transit routes.
+			The following map shows every transportation segment in Toronto: streets, highways, laneways, sidewalks, paths, trails, and public transit routes.
 		</p>
 		
 	</div>
@@ -188,13 +189,13 @@
 			image3="./images/intersection-greenwood-dundas-sat.png"
 			image4="./images/intersection-greenwood-dundas-schematic.png"
 			duration={3500}
-			title1="Eglinton Ave. East & Beachell St."
-			title2="Greenwood Ave. & Dundas St. East"
+			title1="Eglinton Ave. E & Beachell St."
+			title2="Greenwood Ave. & Dundas St. E"
 			note="Two examples of estimating street area allocated for each of the four main travel modes in Toronto. Spaces used by multiple modes (e.g. transit routes that run in mixed traffic, pedestrian crossings) are coded to the most dominant mode. Data sources: City of Toronto and OpenStreetMap."
 		/>
 
 		<p>
-			Summing this data across the entire City of Toronto, we find that the vast majority of space on these segments are allocated to motor vehicles, with cycling and dedicated public transit routes only receiving only a small fraction of the space.  
+			Summing this data across the entire City of Toronto, we find that the vast majority of space on these segments is allocated to motor vehicles, with cycling and dedicated public transit routes only receiving only a small fraction of the space.  
 		</p>
 		
 
@@ -212,7 +213,7 @@
 		/>
 
 		<p>			
-			These inequalities are especially notable when we compare with <a href="https://dmg.utoronto.ca/tts-introduction/" target="_blank">Transportation Tomorrow Survey</a> data on how City of Toronto residents typically travel. 
+			These inequalities are especially notable when we compare them with <a href="https://dmg.utoronto.ca/tts-introduction/" target="_blank">Transportation Tomorrow Survey</a> data on how City of Toronto residents typically travel. 
 		</p>
 		<p>
 			This imbalance stems from decades of political, planning, and engineering decisions which have prioritized motor vehicles over people. 
@@ -253,7 +254,7 @@
 		</div>
 
 		<p>
-			This mismatch is not even geographically. The maps below show the difference, by City ward, between how much space is allocated to each travel mode, and how residents of those wards actually travel. Some patterns emerge, most notably that downtown and older adjacent wards are the most overly designed for motor vehicles, relative to how residents actually travel. They also have the greatest difference in space allocated to active modes, walking and bicycling, relative to how often people travel via these modes.  These maps were partly inspired by similar <a href="https://doi.org/10.1016/j.jcmr.2025.100071" target="_blank">research in Montreal</a>, that also showed centralization of greater mismatch in micromobility (i.e. bicycling).
+			This mismatch is geographically even. The maps below show the difference, by City ward, between how much space is allocated to each travel mode, and how residents of those wards actually travel. Some patterns emerge, most notably that downtown and older adjacent wards are the most overly designed for motor vehicles, relative to how residents actually travel. They also have the greatest difference in space allocated to active modes, walking and bicycling, relative to how often people travel via these modes.  These maps were partly inspired by similar <a href="https://doi.org/10.1016/j.jcmr.2025.100071" target="_blank">research in Montreal</a>, that also showed centralization of greater mismatch in micromobility (i.e. bicycling).
 		</p>
 
 	</div>
@@ -276,7 +277,7 @@
 		<div class="caption-container">
 			<p>
 				<span class="caption-source">
-					These maps show just one way that could help prioritize new infrastructure (mismatch of supply and demand), but there are other important factors as well (safety, equity, air quality, cost, network connectivity, etc.) that are often considered by planners and engineers.
+					These maps show just one way for helping to prioritize new infrastructure (mismatch of supply and demand), but there are other important factors as well (safety, equity, air quality, cost, network connectivity, etc.) that are often considered by transportation planners and engineers.
 					<br><br>
 					For these maps, the data on mode share and space allocation were linked to Wards via areal interpolation. For travel mode share data, this was originally collected at smaller neighbourhood-sized zones. For more maps on how people travel in the Toronto region at this smaller zonal level, check out our <a href="https://schoolofcities.github.io/transportation-tomorrow-survey/" target="_blank">interactive map</a>.
 				</span>
@@ -290,7 +291,7 @@
 		</h2>
 
 		<p>
-			Toronto already has implemented a number of low-cost interventions to re-balance our streets, from CaféTO patios to pilot bike lanes and seasonal road closures. These glimpses of a better future highlight what’s possible when space is shared more equitably. The status quo, by contrast, produces clear harms: unsafe streets where traffic violence is normalized, high emissions from the city’s second-largest source of greenhouse gases, and inequities that privilege those who can afford private vehicles over those who cannot. Despite car dominance of street space, many residents still choose to walk (33%), bicycle (4%), or ride public transit (13%) for trips under five kilometres. That suggests that if more space were allocated to these modes, Toronto would not only reduce inequalities but also likely see significant mode shift.
+			Toronto has already implemented a number of low-cost interventions to re-balance our streets, from CaféTO patios to pilot bike lanes and seasonal road closures. These glimpses of a better future highlight what’s possible when space is shared more equitably. The status quo, by contrast, produces clear harms: unsafe streets where traffic violence is normalized, high emissions from the city’s second-largest source of greenhouse gases, and inequities that privilege those who can afford private vehicles over those who cannot. Despite car dominance of street space, many residents still choose to walk (33%), bicycle (4%), or ride public transit (13%) for trips under five kilometres. That suggests that if more space were allocated to these modes, Toronto would not only reduce inequalities but also likely see significant mode shift.
 		</p>
 
 		<h3>
@@ -298,7 +299,7 @@
 		</h3>
 
 		<p>
-			Despite decades car-based planning, there are examples of how Toronto is starting to reallocate space for public transit. For example, in Scarborough, dedicated bus lanes have been added to Eglinton Ave. East, Kingston Rd., and Morningside Ave. as part of the City's <a href="https://www.toronto.ca/services-payments/streets-parking-transportation/transportation-projects/rapidto/" target="_blank">RapidTO surface transit network plan</a>.
+			Despite decades of car-based planning, there are examples of how Toronto is starting to reallocate space for public transit. For example, in Scarborough, dedicated bus lanes have been added to Eglinton Ave. E, Kingston Rd., and Morningside Ave. as part of the City's <a href="https://www.toronto.ca/services-payments/streets-parking-transportation/transportation-projects/rapidto/" target="_blank">RapidTO surface transit network plan</a>.
 		</p>
 
 	</div>
@@ -306,7 +307,7 @@
 
 	<ImageSingle
 		imageURL="https://upload.wikimedia.org/wikipedia/commons/0/07/Kingston_Road_in_West_Hill%2C_Scarborough%2C_July_10_2025.jpg"
-		caption="Painted bus lanes on Kingston Road in West Hill, Scarborough, July 10, 2025."
+		caption="Painted bus lanes on Kingston Rd. in West Hill, Scarborough, July 10, 2025."
 		source="Wikimedia Commons."	
 		altText=""
 		maxWidth="680px"
@@ -319,7 +320,7 @@
 			These bus lanes have been shown to <a href="https://www.toronto.ca/wp-content/uploads/2025/07/964b-RapidTO-Eglinton-East-Dashboard-Jan-2022-to-Mar-2023Dec5v2r.pdf" target="_blank">improve travel times and reliability for transit users</a>. They are a clear example of how reallocating space can benefit everyone, not just those who drive.
 		</p>
 		<p>	
-			Similarly, the King Street Transit Priority Corridor, in downtown Toronto, a globally recognized success, was fundamentally an exercise in reallocating road space from low-occupancy private vehicles to high-capacity streetcars. By making transit the primary focus, the project moves tens of thousands of people daily <a href="https://www.toronto.ca/services-payments/streets-parking-transportation/transportation-projects/king-street-pilot/data-reports-background-materials/" target="_blank">more efficiently and reliably than before</a>.
+			Similarly, the King Street Transit Priority Corridor in downtown Toronto, a globally recognized success, was fundamentally an exercise in reallocating road space from low-occupancy private vehicles to high-capacity streetcars. By making transit the primary focus, the project moves tens of thousands of people daily <a href="https://www.toronto.ca/services-payments/streets-parking-transportation/transportation-projects/king-street-pilot/data-reports-background-materials/" target="_blank">more efficiently and reliably than before</a>.
 		</p>
 		<p>
 			Toronto has approximately <strong>1,300 kilometres</strong> of highways, major arterial roads, and minor arterial roads. The vast majority of these roads have TTC surface transit routes and have ample space to add dedicated bus or streetcar lanes to improve transit reliability and travel times. These roads will not truly be effective "arteries" until they are designed to prioritize people who ride public transit, instead of only motor vehicles.
@@ -345,12 +346,12 @@
 	<div class="text">
 
 		<p>
-			Extrapolating from <a href="https://www.toronto.ca/services-payments/streets-parking-transportation/transportation-projects/rapidto/rapidto-bus-lanes/eglinton-east-bus-lanes/", target="_blank">City of Toronto reports of recent costs of bus lanes in Scaroborough</a> (<strong>$470,000 / km</strong>), adding dedicated transit lanes to half of the City's highway and arterial road network would cost approximately <strong>$305 Million</strong>. This is quite low when comparing to <a href="https://schoolofcities.utoronto.ca/wp-content/uploads/2025/04/Understanding-the-Drivers-of-Transit-Construction-Costs-in-Canada_Feb-2025_FINAL.pdf" target="_blank">rising costs of larger public transit infrastructure projects</a> across Canada. 
-			For example, the most recent cost estimate for the three-stop Scarborough Subway Extension is <strong><a href="https://www.thestar.com/news/gta/metrolinx-says-scarborough-subway-extension-budget-has-doubled-offers-little-update-on-progress/article_0d063e6b-2a44-4e53-9d43-7919171830ab.html" target="_blank">$10.2 Billion</a></strong> (<strong>$1,300,000,000 / km</strong>). This is not to say that dedicated surface transit lanes are a replacement for higher capacity public transit projects, but rather that they are a cost-effective way to improve transit service quickly as well as provide connections to potentially all neighbourhoods in city.
+			Extrapolating from <a href="https://www.toronto.ca/services-payments/streets-parking-transportation/transportation-projects/rapidto/rapidto-bus-lanes/eglinton-east-bus-lanes/", target="_blank">City of Toronto reports of recent costs of bus lanes in Scarborough</a> (<strong>$470,000 / km</strong>), adding dedicated transit lanes to half of the City's highway and arterial road network would cost approximately <strong>$305 million</strong>. This is quite low when compared to the <a href="https://schoolofcities.utoronto.ca/wp-content/uploads/2025/04/Understanding-the-Drivers-of-Transit-Construction-Costs-in-Canada_Feb-2025_FINAL.pdf" target="_blank">rising costs of larger public transit infrastructure projects</a> across Canada. 
+			For example, the most recent cost estimate for the three-stop Scarborough Subway Extension is <strong><a href="https://www.thestar.com/news/gta/metrolinx-says-scarborough-subway-extension-budget-has-doubled-offers-little-update-on-progress/article_0d063e6b-2a44-4e53-9d43-7919171830ab.html" target="_blank">$10.2 billion</a></strong> (<strong>$1,300,000,000 / km</strong>). This is not to say that dedicated surface transit lanes are a replacement for higher capacity public transit projects, but rather that they are a cost-effective way to improve transit service quickly and to provide connections to potentially all neighbourhoods in the city.
 		</p>
 
 		<p>	
-			To be as successful possible, surface transit routes also require implementing measures like transit-priority signals and enforcement against illegal parking in dedicated transit lanes.
+			To be as successful as possible, surface transit routes also require the implementation of measures such as transit-priority signals and enforcement against illegal parking in dedicated transit lanes.
 		</p>
 
 	</div>
@@ -366,7 +367,7 @@
 		</p>
 
 		<p>
-			In the core, the costs go beyond opportunity. A <a href="https://uttri.utoronto.ca/wp-content/uploads/sites/19/2017/09/Impacts-of-Illegal-On-Street-Parking-on-Torontos-CBD-Congestion.pdf"  target="_blank">University of Toronto report</a> found that illegal on-street parking, including in no-parking zones, or double-parking, “reduces lane capacity and disrupts traffic flow, particularly during peak hours.” Their study found that even relatively short parking violations in the Financial District led to measurable increases in congestion and delays for all road users. Moreover, as <a href="https://www.theglobeandmail.com/opinion/editorials/article-the-hidden-costs-of-cheap-parking/" target="_blank">the Globe and Mail editorial board</a> noted, “road space at the curb is a valuable and limited commodity,” and giving it away cheap reflects “bad economics and bad politics”. 
+			In the core, the costs go beyond opportunity. A <a href="https://uttri.utoronto.ca/wp-content/uploads/sites/19/2017/09/Impacts-of-Illegal-On-Street-Parking-on-Torontos-CBD-Congestion.pdf"  target="_blank">University of Toronto report</a> found that illegal on-street parking, including in no-parking zones, or double-parking, “reduces lane capacity and disrupts traffic flow, particularly during peak hours.” Their study found that even relatively short parking violations in the Financial District led to measurable increases in congestion and delays for all road users. Moreover, as <a href="https://www.theglobeandmail.com/opinion/editorials/article-the-hidden-costs-of-cheap-parking/" target="_blank">the Globe and Mail editorial board</a> noted, “road space at the curb is a valuable and limited commodity,” and giving it away for cheap reflects “bad economics and bad politics”. 
 		</p>
 
 
@@ -376,7 +377,7 @@
 		</p>
 
 		<p>
-			A visible example is <a href="https://www.toronto.ca/business-economy/business-operation-growth/business-support/cafeto-outdoor-dining/" target="_blank">CaféTO</a>, which has repeatedly demonstrated how curb lanes can be transformed from storage for a single idle vehicle into vibrant patios serving dozens of people, acting as a lifeline for local restaurants and creating new social hubs. The City has also formalized this concept through its  <a href="https://www.toronto.ca/wp-content/uploads/2019/08/949e-Cafe-Application-Package-Final.pdf"  target="_blank">Parklet Program</a>, which provides official guidelines for converting individual parking spots into mini public parks, complete with seating and greenery, proving that even small-scale interventions can inject life and community onto a street. Climate resilience is improving by reclaiming pavement; through its <a href="https://www.toronto.ca/services-payments/streets-parking-transportation/enhancing-our-streets-and-public-realm/green-streets/green-infrastructure-resources/"  target="_blank">Green Infrastructure program</a>, Toronto is now building <a href="https://www.toronto.ca/wp-content/uploads/2021/08/8e5e-ecs-specs-gi-dwgs-T-850.111-Rev0-Sep2021.pdf"  target="_blank">bioswales</a> in the space once occupied by asphalt curb lanes to absorb stormwater and provide green space to neighbourhoods.
+			A visible example is <a href="https://www.toronto.ca/business-economy/business-operation-growth/business-support/cafeto-outdoor-dining/" target="_blank">CaféTO</a>, which has repeatedly demonstrated how curb lanes can be transformed from storage for a single idle vehicle into vibrant patios serving dozens of people, acting as a lifeline for local restaurants and creating new social hubs. The City has also formalized this concept through its  <a href="https://www.toronto.ca/wp-content/uploads/2019/08/949e-Cafe-Application-Package-Final.pdf"  target="_blank">Parklet Program</a>, which provides official guidelines for converting individual parking spots into mini public parks, complete with seating and greenery, proving that even small-scale interventions can inject life and community onto a street. Climate resilience is improved by reclaiming pavement; through its <a href="https://www.toronto.ca/services-payments/streets-parking-transportation/enhancing-our-streets-and-public-realm/green-streets/green-infrastructure-resources/"  target="_blank">Green Infrastructure program</a>, Toronto is now building <a href="https://www.toronto.ca/wp-content/uploads/2021/08/8e5e-ecs-specs-gi-dwgs-T-850.111-Rev0-Sep2021.pdf"  target="_blank">bioswales</a> in the space once occupied by asphalt curb lanes to absorb stormwater and provide green space to neighbourhoods.
 		</p>
 
 	</div>
@@ -410,15 +411,16 @@
 		</p>
 
 		<p>
-			Toronto recently eliminated parking minimums and even introduced maximums to curb overbuilding, a positive shift. But curbside parking remains largely untouched. Most spaces are still free or underpriced, treated as a public entitlement rather than a scarce resource. As Donald Shoup and others have long argued, cheap parking is a subsidy that encourages driving, worsens congestion, and prevents curbspace from being reallocated to higher-value uses like bike lanes, transit priority, green buffers, or delivery zones. Until Toronto embraces demand-based pricing, the street remains a free bonus for drivers, reinforcing inequality in how public space is shared.
+			Toronto recently eliminated parking minimums and even introduced maximums to curb overbuilding – a positive shift. But curbside parking remains largely untouched. Most spaces are still free or underpriced, treated as a public entitlement rather than a scarce resource. As <a href="https://en.wikipedia.org/wiki/Donald_Shoup" target="_blank">Donald Shoup</a> and others have long argued, cheap parking is a subsidy that encourages driving, worsens congestion, and prevents curbspace from being reallocated to higher-value uses like bike lanes, transit priority, green buffers, or delivery zones. Until Toronto embraces demand-based pricing, the street remains a free bonus for drivers, reinforcing inequality in how public space is shared.
 		</p>
 
 		<p>
-			Better enforcement, particularly via automated cameras, could also lead to substantial revenue. <a href="https://schoolofcities.github.io/king-street-toronto/traffic-violations" target="_blank">Our previous research found that lack of enforcement on the King Street transit priority corridor</a> is leading to about <strong>$750,000</strong> of lost revenue per day on King Street alone, based on data from the City of Toronto and Toronto Police.
+			Better enforcement, particularly via automated cameras, could also lead to substantial revenue. <a href="https://schoolofcities.github.io/king-street-toronto/traffic-violations" target="_blank">Our previous research found that lack of enforcement on the King St.</a> is leading to about <strong>$750,000</strong> of lost revenue per day on King St. alone, based on data from the City of Toronto and Toronto Police.
 		</p>
 
 		<p>	
-			Similarly, in our previous work, we also <a href="https://schoolofcities.utoronto.ca/could-congestion-pricing-unlock-a-better-toronto/" target="_blank">estimated the potential income of congestion pricing</a>, based on recent travel survey data that a $9 fee for driving into central Toronto would generate over <strong>$2.0 million</strong> per day in revenue. 
+			
+			In <a href="https://schoolofcities.utoronto.ca/could-congestion-pricing-unlock-a-better-toronto/" target="_blank">other previous research we estimated the potential income of congestion pricing</a> and found that, based on recent travel survey data, a $9 fee for driving into central Toronto would generate over <strong>$2 million</strong> per day in revenue. 
 		</p>
 
 	</div>
@@ -427,35 +429,61 @@
 	<div class="text">
 
 		<h3>
-			Open Streets: Reclaiming Roads for People
+			Open Streets: Reclaiming roads for people
 		</h3>
 
 		<p>
 			Open Streets programs flip the script on who streets are really for. Instead of prioritizing cars, these events temporarily close major roads to traffic and invite people to walk, bike, roll, dance, or simply gather. The impact is immediate: streets become safe, sociable, and vibrant.
 		</p>
 
-		<p>
-			<a href="https://www.openstreetsto.org/" target="_blank">Toronto’s Open Streets</a> program, which began as a small pilot in 2014, has shown glimpses of what’s possible. On Yonge and Bloor, families, newcomers, and seniors alike have filled the roadway, discovering how much more welcoming the city feels without car traffic dominating every metre of space (Open Streets TO, 2014). Although these events remain limited in duration and frequency, they highlight a demand for streets that support community life, not just vehicle flow.
-		</p>
+		<VideoSingle
+			videoURL="./video/connaught.mp4"
+			caption="Connaught School Open Street in Calgary, Alberta. An example of a community-led open street"
+			source="Video by Kosta Diochonos, School of Cities. <a href='https://www.instagram.com/reel/DNQ6ECVtQsx/?igsh=N3p0bmw5enZtYWd3' target='_blank'>Instagram</a></VideoSingle> / <a href='https://vt.tiktok.com/ZSSvUufYv/' target='_blank'>TikTok</a></VideoSingle>"
+			altText="Short demo video"
+			maxWidth="340px"
+			playbackRate={1}
+			showControls={false}
+		/>
 
 		<p>
-			What’s more, Toronto already has the tools to go further. In 2025, the City and the Toronto Association of Business Improvement Areas (TABIA) released <a href="https://www.toronto-bia.com/wp-content/uploads/2025/06/Pedestrian-Streets-BIA-June-10-2025.pdf" target="_blank">Pedestrian Streets: Policy & Guidelines</a>, offering BIAs and neighbourhoods a roadmap for transforming roadways into pedestrian-friendly public spaces. So far, however, these initiatives have mostly been tied to street festivals and short-term pilots, a few days at a time rather than sustained or seasonal transformations.
+			<a href="https://www.openstreetsto.org/" target="_blank">Toronto’s Open Streets</a> program, which began as a small pilot in 2014, has shown glimpses of what’s possible. On Yonge St. and Bloor St., families, newcomers, and seniors alike have filled the roadways, discovering how much more welcoming the city feels without car traffic dominating every metre of space. Although these events remain limited in duration and frequency, they highlight a demand for streets that support community life, not just vehicle flow.
 		</p>
 
+
+
+
 		<p>
-			Other cities have demonstrated what happens when these programs scale up. In Bogotá, the world-renowned <a href="https://www.researchgate.net/publication/45629811_The_Ciclovia-Recreativa_A_Mass-Recreational_Program_With_Public_Health_Potential#:~:text=The%20Ciclov%C3%ADa%2DRecreativa%20is%20a,%2C%20rollerbladers%2C%20and%20cyclists%20only." target="_blank">Ciclovía</a> engages millions each Sunday and is credited with delivering more than three dollars in public health benefits for every dollar invested. Montreal, meanwhile, has reimagined Open Streets into a seasonal tradition: each summer, <a href="https://www.cbc.ca/news/canada/montreal/pedestrian-streets-summer-1.7544589" target="_blank">avenues like Mont-Royal and Wellington</a> transform into <a href="https://montreal.ca/en/articles/pedestrian-streets-liven-city-summer-31971" target="_blank">pedestrian promenades</a> filled with patios, art, and performances. In 2025, the city went further by permanently pedestrianizing a stretch of <a href="https://www.cbc.ca/news/canada/montreal/ste-catherine-east-pedestrian-street-1.7615675" target="_blank">Sainte-Catherine St. East</a> in the Village, adding trees, green space, and public seating to create a cultural hub year-round.
+			What’s more, Toronto already has the tools to go further. In 2025, the City and the Toronto Association of Business Improvement Areas (TABIA) released <a href="https://www.toronto-bia.com/wp-content/uploads/2025/06/Pedestrian-Streets-BIA-June-10-2025.pdf" target="_blank">Pedestrian Streets: Policy & Guidelines Development</a>, offering BIAs and neighbourhoods a roadmap for transforming roadways into pedestrian-friendly public spaces. So far, however, these initiatives have mostly been tied to street festivals and short-term pilots, rather than sustained or seasonal transformations. Market St., next to the St. Lawrence Market, is one exception, a seasonal open street which began as a pilot in summer 2021. 
 		</p>
 
 	</div>
 
-	<VideoSingle
-		videoURL="./video/connaught.mp4"
-		caption="Connaught School Open Street in Calgary, Alberta."
-		source="Video by Kosta Diochonos, School of Cities. <a href='https://www.instagram.com/reel/DNQ6ECVtQsx/?igsh=N3p0bmw5enZtYWd3' target='_blank'>Instagram</a></VideoSingle> / <a href='https://vt.tiktok.com/ZSSvUufYv/' target='_blank'>TikTok</a></VideoSingle>"
-		altText="Short demo video"
-		maxWidth="340px"
-		playbackRate={1}
-		showControls={false}
+	<ImageSingle
+		imageURL="./images/market-st.jpg"
+		caption="Market St. in Toronto has been open to pedestrians during summer months since 2021"
+		source="<br>Photo by Lanrick Bennet Jr., August 2025"	
+		altText=""
+		maxWidth="680px"
+		link="Yes"
+	/>
+
+	<div class="text">
+
+		<p>
+			Other cities have demonstrated what happens when these programs scale up. In Bogotá, the world-renowned <a href="https://www.researchgate.net/publication/45629811_The_Ciclovia-Recreativa_A_Mass-Recreational_Program_With_Public_Health_Potential#:~:text=The%20Ciclov%C3%ADa%2DRecreativa%20is%20a,%2C%20rollerbladers%2C%20and%20cyclists%20only." target="_blank">Ciclovía</a> engages millions each Sunday and is credited with delivering more than three dollars in public health benefits for every dollar invested. Montreal, meanwhile, has reimagined Open Streets into a seasonal tradition: each summer, <a href="https://www.cbc.ca/news/canada/montreal/pedestrian-streets-summer-1.7544589" target="_blank">avenues like Mont-Royal and Wellington</a> transform into <a href="https://montreal.ca/en/articles/pedestrian-streets-liven-city-summer-31971" target="_blank">pedestrian promenades</a> filled with patios, art, and performances. In 2025, the city went further by permanently pedestrianizing a stretch of <a href="https://www.cbc.ca/news/canada/montreal/ste-catherine-east-pedestrian-street-1.7615675" target="_blank">Ste-Catherine St. E</a> in the Village, adding trees, green space, and public seating to create a cultural hub year-round.
+		</p>
+
+	</div>
+
+
+	<ImageSingle
+		imageURL="./images/mtl/mtl-photos.png"
+		caption="Open streets in Montreal"
+		source="<br>Photos by Patrick Murphy (Oh The Urbanity!)"	
+		altText=""
+		maxWidth="1080px"
+		link="Yes"
 	/>
 
 	<div class="text">
@@ -502,11 +530,11 @@
 		/>
 
 		<p>
-			Moreover, when the City of Toronto proposes new street designs, their survey responses are typically very supportive. For example, <a href="https://www.toronto.ca/legdocs/mmis/2023/te/bgrd/backgroundfile-237354.pdf" target="_blank">90% of survey respondents were supportive for pedestrian-only zones in Kensington Market</a>. <a href="https://www.toronto.ca/wp-content/uploads/2025/07/8e69-RapidTO-Bathurst-Consultation-Report.pdf" target="_blank">Nearly 70% of survey respondents agreed that major roads, such as Bathurst Street, should prioritize moving people by public transit</a>, from a recent survey of proposed transit-priority lanes. Even the most politically controversial bike lanes have majority support. For example, <a href="https://www.toronto.ca/wp-content/uploads/2023/05/9871-TTWBloorStW-ConsultationSummaryReport-2023-04-19AODA.pdf" target="_blank">more than 50% of surveyed residents were supportive of bike lanes on Bloor St. West</a> (between Runnymede Road and Resurrection Road).
+			Moreover, when the City of Toronto proposes new street designs, their survey responses are typically very supportive. For example, <a href="https://www.toronto.ca/legdocs/mmis/2023/te/bgrd/backgroundfile-237354.pdf" target="_blank">90% of survey respondents were supportive for pedestrian-only zones in Kensington Market</a>. <a href="https://www.toronto.ca/wp-content/uploads/2025/07/8e69-RapidTO-Bathurst-Consultation-Report.pdf" target="_blank">Nearly 70% of survey respondents agreed that major roads, such as Bathurst St., should prioritize moving people by public transit</a>, from a recent survey of proposed transit-priority lanes. Even the most politically controversial bike lanes have majority support. For example, <a href="https://www.toronto.ca/wp-content/uploads/2023/05/9871-TTWBloorStW-ConsultationSummaryReport-2023-04-19AODA.pdf" target="_blank">more than 50% of surveyed residents were supportive of bike lanes on Bloor St. W</a> (between Runnymede Rd. and Resurrection Rd.).
 		</p>
 
 		<p>
-			The minority opposition to street re-designs and reduction of parking is sometimes framed around concerns of customer access and deliveries. But deliveries can be adjusted to hours mornings or late at night (e.g. mornings or late at night). While the amount of customers arriving by motor vehicles is often over-estimated by merchants. In Toronto, after bike lanes were installed along Bloor St. in the Annex and Koreatown, the percent of visitors who arrived by car did not change significantly, and overall people were <a href="https://tcat.ca/wp-content/uploads/2019/09/Bike-Lanes-and-Business-on-Bloor-Snapshot-2019-09-04.jpg" target="_blank">spending more</a>.
+			The minority opposition to street re-designs and reduction of parking is sometimes framed around concerns of customer access and deliveries to businesses. But deliveries could be adjusted to mornings or late at night. While the amount of customers arriving by motor vehicles is often over-estimated by merchants. In Toronto, after bike lanes were installed along Bloor St. in the Annex and Koreatown, the percent of visitors who arrived by car did not change significantly, and overall people were <a href="https://tcat.ca/wp-content/uploads/2019/09/Bike-Lanes-and-Business-on-Bloor-Snapshot-2019-09-04.jpg" target="_blank">spending more</a>.
 		</p>
 
 	</div>
@@ -519,11 +547,11 @@
 		</h2>
 
 		<p>
-			So if there is overall support for street re-design projects when they are proposed, and the data of recent projects show overwhelming positives for transit riders and active travel, with little detriment motor vehicle travel times, then why are changes limited to a few case studies and disconnected sections? Or when changes do happen, why is implementation often riddled with compromises which limit their potential effectiveness?  
+			So if there is overall support for street re-design projects when they are proposed, and the data of recent projects show overwhelming positives for transit riders and active travel with little detriment to motor vehicle travel times, then why are changes limited to a few case studies and disconnected sections? Or when changes do happen, why is implementation often riddled with compromises which limit their potential effectiveness?  
 		</p>
 
 		<p>	
-			Cost should not be a barrier, since as we noted, the cost of prioritizing surface public transit, reallocating on-street parking, and opening streets is relatively quite small – especially when comparing to major infrastructure projects. Moreover, costs could be covered by more intelligent parking pricing and increased enforcement.
+			Cost should not be a barrier since as we've noted, the cost of prioritizing surface public transit, reallocating on-street parking, and opening streets is relatively quite small – especially when compared to major infrastructure projects. Moreover, costs could be covered by increased enforcement.
 		</p>
 
 		<p>
@@ -531,11 +559,11 @@
 		</p>
 
 		<p>
-			Policies that reduce car dominance are often perceived as unreasonable, not because of data or evidence, but because of a widespread assumption that driving must remain the default mode of transport. Recent research has framed this as <strong>motonormativity</strong>, which refers to the deep cultural bias that treats car use as normal, necessary, and morally neutral, despite having detrimental safety, equity, and environmental impacts. This bias, shaped by decades of media, built infrastructure, and policy leads many people to apply a different standard of judgment to driving than they would to comparable behaviors. For example, <a href="https://doi.org/10.1504/IJENVH.2023.135446" target="_blank">research in the UK</a>, found that most people opposed exposing others to secondhand smoke, but many accepted toxic car fumes on crowded streets without question. This double standard makes it politically difficult to reallocate road space toward public transit, cycling, and walking even when such changes would improve public health, safety, and sustainability.
+			Policies that reduce car dominance are often perceived as unreasonable, not because of data or evidence, but because of a widespread assumption that driving must remain the default mode of transport. Recent research has framed this as <strong>motonormativity</strong>, which refers to the deep cultural bias that treats car use as normal, necessary, and morally neutral, despite having detrimental safety, equity, and environmental impacts. This bias, shaped by decades of media, built infrastructure, and policy leads many people to apply a different standard of judgment to driving than they would to comparable behaviours. For example, <a href="https://doi.org/10.1504/IJENVH.2023.135446" target="_blank">research in the UK</a> found that most people opposed exposing others to secondhand smoke, but many accepted toxic car fumes on crowded streets without question. This double standard makes it politically difficult to reallocate road space toward public transit, cycling, and walking even when such changes would improve public health, safety, and sustainability.
 		</p>
 
 		<p>
-			Similarly, people often over-estimate how many people travel by car, likely because they simply take up more space, which can further skew biases. For example, when bike lanes were being installed on Bloor St. in the Annex and Koreatown, <a href="https://tcat.ca/wp-content/uploads/2019/09/Bike-Lanes-and-Business-on-Bloor-Snapshot-2019-09-04.jpg" target="_blank">over half of merchants believed that 25% or more of their customers arrived by car, but the reality was less than 10% of visitors arrived by car on average.</a>
+			Similarly, people often over-estimate how many people travel by car, likely because they simply take up more space, which can further skew biases. For example, when bike lanes were being installed on Bloor St. in the Annex and Koreatown, <a href="https://tcat.ca/wp-content/uploads/2019/09/Bike-Lanes-and-Business-on-Bloor-Snapshot-2019-09-04.jpg" target="_blank">over half of merchants believed that 25% or more of their customers arrived by car, but the reality was that less than 10% of visitors arrived by car on average.</a>
 		</p>
 
 		<p>
@@ -551,11 +579,11 @@
 		</h2>
 
 		<p>
-			Public space belongs to everyone, not just car owners. For too long, Toronto’s streets have served vehicles first. But as we've seen, this is not inevitable. The choice to rebalance our streets is already underway. The successes of CaféTO, the King Street transit corridor, and new protected bike lanes are not isolated experiments; they are a clear verdict. They prove that when we reclaim space from idle cars, we create more room for people, for community, and for a more resilient city.
+			Public space belongs to everyone, not just car owners. For too long, Toronto’s streets have served vehicles first. But as we've seen, this is not inevitable. The choice to rebalance our streets is already underway. The successes of CaféTO, the King St. transit corridor, and new protected bike lanes are not isolated experiments; they are a clear verdict. They prove that when we reclaim space from idle cars, we create more room for people, for community, and for a more resilient city.
 		</p>
 		
 		<p>
-			The path forward is to make this the rule, not the exception. We can achieve this by implementing smart policies and cost-effective re-designs that treat our land as the valuable public asset it is. This means decisively reallocating on-street parking on streets to create permanent space for wider sidewalks, safer bike lanes, and dedicated surface public transit routes. It means intelligently pricing our curb lanes to manage demand and reinvesting that revenue directly into the neighbourhood improvements residents are asking for: better transit, pedestrian, and cycling infrastructure; and vibrant street-scapes and public spaces. 
+			The path forward is to make this the rule, not the exception. We can achieve this by implementing smart policies and cost-effective re-designs that treat our land as the valuable public asset it is. This means decisively reallocating on-street parking to create permanent space for wider sidewalks, safer bike lanes, and dedicated surface public transit routes. It means pricing our curb lanes to manage demand and reinvesting that revenue directly into the neighbourhood improvements residents are asking for: better transit, pedestrian, and cycling infrastructure and vibrant street-scapes and public spaces. 
 		</p>
 		
 		<p>
@@ -569,7 +597,7 @@
 			<h2>Acknowledgements</h2>
 
 			<p>
-				We would like to thank Mia Wang for providing data analysis and GIS support for this project; OpenStreetMap contributors as well as the City of Toronto for sharing open data that allowed for the analysis; Andy Woodruff and Daniel Romm who created excellent maps of other cities that inspired parts this project; Geoffrey Anhorn and Kosta Diochnos for providing videos; and ____ for their comments and feedback ... ...
+				We would like to thank OpenStreetMap contributors as well as the City of Toronto for sharing open data that allowed for the analysis; Andy Woodruff and Daniel Romm who created excellent maps of other cities that inspired parts of this project; Geoffrey Anhorn and Kosta Diochnos for providing videos; and Felicity Heyworth for editing.
 			</p>
 
 		</div>
