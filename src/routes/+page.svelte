@@ -42,21 +42,21 @@
 
 	<title>Who Are Streets For? | School of Cities</title>
 
-	<!-- <meta name="description" content="Repository of design and web components for building data stories, visualizations, maps, and other custom web projects" />
-	<meta name="author" content="Jeff Allen">
+	<meta name="description" content="81% of street space in Toronto is inequitably dedicated to motor vehicles. How can this be fairly re-designed?" />
+	<meta name="author" content="School of Cities">
 
-	<meta property="og:title" content="Design Components" />
-	<meta property="og:description" content="Repository of design and web components for building data stories, visualizations, maps, and other custom web projects" />
+	<meta property="og:title" content="Who are streets for?" />
+	<meta property="og:description" content="81% of street space in Toronto is inequitably dedicated to motor vehicles. How can this be fairly re-designed?" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://schoolofcities.github.io/design-components/" />
-	<meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/design-components/main/static/web-card.png" />
+	<meta property="og:url" content="https://schoolofcities.github.io/who-are-streets-for/" />
+	<meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/who-are-streets-for/main/static/web-card.png" />
 	<meta property="og:locale" content="en_CA">
 
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Design Components" />
-	<meta name="twitter:description" content="Repository of design and web components for building data stories, visualizations, maps, and other custom web projects" />
-	<meta name="twitter:site" content="https://schoolofcities.github.io/design-components/" />
-	<meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/design-components/main/static/web-card.png" />  -->
+	<meta name="twitter:title" content="Who are streets for?" />
+	<meta name="twitter:description" content="81% of street space in Toronto is inequitably dedicated to motor vehicles. How can this be fairly re-designed?" />
+	<meta name="twitter:site" content="https://schoolofcities.github.io/who-are-streets-for/" />
+	<meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/who-are-streets-for/main/static/web-card.png" /> 
 
 </svelte:head>
 
@@ -96,7 +96,7 @@
 	<TitleHalfSplitVideo
 		title="Who are streets for?"
 		subtitle="81% of street space in Toronto is inequitably dedicated to motor vehicles. How can this be fairly re-designed?"
-		video="./video/Cycling street college street_v3 1.mp4"
+		video="./video/college2.mp4"
 		videoAltText="A photo"
 		videoCaption="College St., Toronto."
 		videoSource="Video by Geoffrey Anhorn."
@@ -306,8 +306,8 @@
 
 
 	<ImageSingle
-		imageURL="https://upload.wikimedia.org/wikipedia/commons/0/07/Kingston_Road_in_West_Hill%2C_Scarborough%2C_July_10_2025.jpg"
-		caption="Painted bus lanes on Kingston Rd. in West Hill, Scarborough, July 10, 2025."
+		imageURL="./images/kingstonrd.jpg"
+		caption="Painted bus lanes on Kingston Rd. in West Hill, Scarborough, July 2025."
 		source="Wikimedia Commons."	
 		altText=""
 		maxWidth="680px"

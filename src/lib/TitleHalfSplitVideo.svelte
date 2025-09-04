@@ -145,7 +145,7 @@
 		align-items: center;
 		overflow: hidden;
 		z-index: inherit;
-		opacity: 0.82;
+		opacity: 0.9;
 	}
 
 	.right video {

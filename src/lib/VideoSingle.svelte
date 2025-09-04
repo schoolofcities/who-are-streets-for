@@ -1,33 +1,89 @@
-<script>
-	import "../assets/global-styles.css"
-
+	<script>
+	import { onMount, onDestroy } from 'svelte';
+	import "../assets/global-styles.css";
+	
 	export let videoURL = '';
 	export let caption = '';
 	export let source = '';
 	export let altText = '';
 	export let maxWidth = '';
 	export let playbackRate = 1.0;
-	export let showControls = false; 
+	export let showControls = false;
 	export let autoplay = true;
-	export let loop = true; 
+	export let loop = true;
 	export let muted = true;
-
+	
 	let videoEl;
-
-	// Apply playback rate whenever it changes
-	$: if (videoEl) {
+	let observer;
+	let isInViewport = false;
+	let hasLoaded = false;
+	
+	$: if (videoEl && hasLoaded) {
 		videoEl.playbackRate = playbackRate;
 	}
+	
+	onMount(() => {
+		if (typeof IntersectionObserver !== 'undefined') {
+		observer = new IntersectionObserver(
+			(entries) => {
+			entries.forEach(entry => {
+				if (entry.isIntersecting) {
+				isInViewport = true;
+				loadVideo();
+				observer.unobserve(entry.target);
+				}
+			});
+			},
+			{
+			rootMargin: '500px', 
+			threshold: 0.01
+			}
+		);
+		
+		const container = document.querySelector('.video-container');
+		if (container) {
+			observer.observe(container);
+		}
+		} else {
+		loadVideo();
+		}
+		
+		return () => {
+		if (observer) {
+			observer.disconnect();
+		}
+		};
+	});
+	
+	onDestroy(() => {
+		if (observer) {
+		observer.disconnect();
+		}
+	});
+	
+	function loadVideo() {
+		if (!hasLoaded && videoEl) {
+		hasLoaded = true;
+		videoEl.src = videoURL;
+		videoEl.preload = 'metadata';
+		
+		videoEl.addEventListener('loadeddata', () => {
+			videoEl.classList.add('video-loaded');
+		});
+		}
+	}
+	</script>
 
-</script>
-
-<div 
-	class="video-container" 
-	style="max-width: {maxWidth};"
->
-	<video 
+	<div class="video-container" style="max-width: {maxWidth};">
+	{#if !hasLoaded}
+		<div class="video-placeholder">
+		<div class="loading-spinner"></div>
+		</div>
+	{/if}
+	
+	<video
 		bind:this={videoEl}
-		src={videoURL}
+		class:video-loaded={hasLoaded}
 		playsinline
 		controls={showControls}
 		{autoplay}
@@ -36,18 +92,18 @@
 		preload="none"
 		aria-label={altText}
 	>
-		Apologies, your browser doesn’t support embedded videos.
+		Apologies, your browser doesn't support embedded videos.
 	</video>
-
+	
 	<div class="caption-container">
 		<p>
-			<span class="caption-text">{@html caption}</span>
-			<span class="caption-source">{@html source}</span>
+		<span class="caption-text">{@html caption}</span>
+		<span class="caption-source">{@html source}</span>
 		</p>
 	</div>
-</div>
+	</div>
 
-<style>
+	<style>
 	.video-container {
 		display: flex;
 		flex-direction: column;
@@ -57,8 +113,10 @@
 		margin-bottom: 30px;
 		padding-left: 20px;
 		padding-right: 20px;
+		position: relative;
+		min-height: 200px;
 	}
-
+	
 	video {
 		width: 100%;
 		height: auto;
@@ -67,5 +125,37 @@
 		display: block;
 		object-fit: cover;
 		object-position: center;
+		opacity: 0;
+		transition: opacity 0.3s ease;
 	}
-</style>
+	
+	video.video-loaded {
+		opacity: 1;
+	}
+	
+	.video-placeholder {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #f0f0f0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.loading-spinner {
+		width: 40px;
+		height: 40px;
+		border: 4px solid #e0e0e0;
+		border-top: 4px solid #4285f4;
+		border-radius: 50%;
+		animation: spin 1s linear infinite;
+	}
+	
+	@keyframes spin {
+		0% { transform: rotate(0deg); }
+		100% { transform: rotate(360deg); }
+	}
+	</style>
