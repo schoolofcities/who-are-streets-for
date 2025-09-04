@@ -160,7 +160,7 @@
 
 	<div class="text">
 
-		<h2>
+		<h2 style="padding-top: 30px;">
 			A disconnect between space and travel patterns
 		</h2>
 		<p>
@@ -200,7 +200,7 @@
 		
 
 		<h4>
-			Transportation infrastructure in the City of Toronto allocated to each travel mode
+			Area of transportation infrastructure in the City of Toronto allocated to each travel mode
 		</h4>
 
 		<BarMode
@@ -461,7 +461,7 @@
 
 	<ImageSingle
 		imageURL="./images/market-st.jpg"
-		caption="Market St. in Toronto has been open to pedestrians during summer months since 2021"
+		caption="Market St., Toronto."
 		source="<br>Photo by Lanrick Bennet Jr., August 2025"	
 		altText=""
 		maxWidth="680px"
