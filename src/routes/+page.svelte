@@ -129,13 +129,13 @@
 	<div class="text">
 
 		<AuthorDate
-			authors="<a href='' target='_blank'>Jeff Allen</a>, <a href='' target='_blank'>Lanrick Bennit Jr.</a>, <a href='' target='_blank'>Mia Wang</a>"
+			authors="<a href='https://jamaps.github.io/' target='_blank'>Jeff Allen</a>, <a href='https://www.linkedin.com/in/lanrickbennettjr' target='_blank'>Lanrick Bennit Jr.</a>, <a href='https://www.linkedin.com/in/xinyue-wang-72209a26a/' target='_blank'>Mia Wang</a>"
 			date="September 2025"
 		/>
 
 		<div class="caption-container" style="margin-top: -25px; margin-bottom: 25px;">
 			<p style="font-size: 13.7px; color: #4d4d4d">
-				<span class="caption-text"><i>Jeff Allen led the mapping and data analysis; Lanrick Bennet Jr. led the majority of the writing and contextual research; Mia Wang provided data collection and analysis support.</i></span>
+				<span class="caption-text"><i>Jeff Allen led the mapping and data analysis for this project; Lanrick Bennet Jr. led the majority of the writing and contextual research; Mia Wang provided data collection and analysis support.</i></span>
 			</p>
 			<br>
 		</div>
