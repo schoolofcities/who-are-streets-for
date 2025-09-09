@@ -129,13 +129,13 @@
 	<div class="text">
 
 		<AuthorDate
-			authors="<a href='https://jamaps.github.io/' target='_blank'>Jeff Allen</a>, <a href='https://www.linkedin.com/in/lanrickbennettjr' target='_blank'>Lanrick Bennit Jr.</a>, <a href='https://www.linkedin.com/in/xinyue-wang-72209a26a/' target='_blank'>Mia Wang</a>"
+			authors="<a href='https://jamaps.github.io/' target='_blank'>Jeff Allen</a>, <a href='https://www.linkedin.com/in/lanrickbennettjr' target='_blank'>Lanrick Bennett Jr.</a>, <a href='https://www.linkedin.com/in/xinyue-wang-72209a26a/' target='_blank'>Mia Wang</a>"
 			date="September 2025"
 		/>
 
 		<div class="caption-container" style="margin-top: -25px; margin-bottom: 25px;">
 			<p style="font-size: 13.7px; color: #4d4d4d">
-				<span class="caption-text"><i>Jeff Allen led the mapping and data analysis for this project; Lanrick Bennet Jr. led the majority of the writing and contextual research; Mia Wang provided data collection and analysis support.</i></span>
+				<span class="caption-text"><i>Jeff Allen led the mapping and data analysis for this project; Lanrick Bennett Jr. led the majority of the writing and contextual research; Mia Wang provided data collection and analysis support.</i></span>
 			</p>
 			<br>
 		</div>
@@ -151,7 +151,7 @@
 			The answer, backed by a close look at the data and geography, reveals deep inequities in how Toronto allocates outdoor space. Whether you walk, bike, take transit or drive, the way public land is distributed has serious implications for how we move, how safe we feel, and who can access opportunities in this city.
 		</p>
 		<p>
-			This city-wide map shows it clearly: roads and surface parking lots dominate Toronto’s public realm in most neighbourhoods. In total, more than 125 square kilometres of land in Toronto is dedicated to motor vehicles (approximately 20% of the City's total land area) – that's over 360 Trinity Bellwoods Parks.
+			This city-wide map shows it clearly: roads and surface parking lots dominate Toronto’s public realm in most neighbourhoods. In total, more than 125 square kilometres of land in Toronto is dedicated to motor vehicles – approximately 20% of the City's total land area.
 		</p>
 
 	</div>
@@ -462,7 +462,7 @@
 	<ImageSingle
 		imageURL="./images/market-st.jpg"
 		caption="Market St., Toronto."
-		source="<br>Photo by Lanrick Bennet Jr., August 2025"	
+		source="<br>Photo by Lanrick Bennett Jr., August 2025"	
 		altText=""
 		maxWidth="680px"
 		link="Yes"
