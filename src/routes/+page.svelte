@@ -42,7 +42,7 @@
 
 	<title>Who Are Streets For? | School of Cities</title>
 
-	<meta name="description" content="81% of street space in Toronto is inequitably dedicated to motor vehicles. How can this be fairly re-designed?" />
+	<meta name="description" content="More than 80% of street space in Toronto is inequitably dedicated to motor vehicles. How can this be fairly re-designed?" />
 	<meta name="author" content="School of Cities">
 
 	<meta property="og:title" content="Who are streets for?" />
@@ -54,14 +54,14 @@
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Who are streets for?" />
-	<meta name="twitter:description" content="81% of street space in Toronto is inequitably dedicated to motor vehicles. How can this be fairly re-designed?" />
+	<meta name="twitter:description" content="More than 80% of street space in Toronto is inequitably dedicated to motor vehicles. How can this be fairly re-designed?" />
 	<meta name="twitter:site" content="https://schoolofcities.github.io/who-are-streets-for/" />
 	<meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/who-are-streets-for/main/static/web-card.png" /> 
 
 </svelte:head>
 
 
-<Password/>
+<!-- <Password/> -->
 
 <main>
 
@@ -95,7 +95,7 @@
 
 	<TitleHalfSplitVideo
 		title="Who are streets for?"
-		subtitle="81% of street space in Toronto is inequitably dedicated to motor vehicles. How can this be fairly re-designed?"
+		subtitle="More than 80% of street space in Toronto is inequitably dedicated to motor vehicles. How can this be fairly re-designed?"
 		video="./video/college2.mp4"
 		videoAltText="A photo"
 		videoCaption="College St., Toronto."
@@ -135,7 +135,7 @@
 
 		<div class="caption-container" style="margin-top: -25px; margin-bottom: 25px;">
 			<p style="font-size: 13.7px; color: #4d4d4d">
-				<span class="caption-text"><i>Jeff Allen led the mapping and data analysis for this project; Lanrick Bennett Jr. led the majority of the writing and contextual research; Mia Wang provided data collection and analysis support.</i></span>
+				<span class="caption-text"><i>Jeff Allen led data analysis and visualization for this project, and supported writing; Lanrick Bennett Jr. led the majority of the writing and contextual research; Mia Wang led data collection and GIS data processing.</i></span>
 			</p>
 			<br>
 		</div>
@@ -254,7 +254,7 @@
 		</div>
 
 		<p>
-			This mismatch is geographically even. The maps below show the difference, by City ward, between how much space is allocated to each travel mode, and how residents of those wards actually travel. Some patterns emerge, most notably that downtown and older adjacent wards are the most overly designed for motor vehicles, relative to how residents actually travel. They also have the greatest difference in space allocated to active modes, walking and bicycling, relative to how often people travel via these modes.  These maps were partly inspired by similar <a href="https://doi.org/10.1016/j.jcmr.2025.100071" target="_blank">research in Montreal</a>, that also showed centralization of greater mismatch in micromobility (i.e. bicycling).
+			This mismatch is geographically uneven. The maps below show the difference, by City ward, between how much space is allocated to each travel mode and how residents of those wards actually travel. Some patterns emerge, most notably that downtown and older adjacent wards are the most overly designed for motor vehicles, relative to how residents actually travel. They also have the greatest difference in space allocated to active modes, walking and bicycling, relative to how often people travel via these modes.  These maps were partly inspired by similar <a href="https://doi.org/10.1016/j.jcmr.2025.100071" target="_blank">research in Montreal</a>, that also showed centralization of greater mismatch in micromobility (i.e. bicycling).
 		</p>
 
 	</div>
@@ -320,7 +320,7 @@
 			These bus lanes have been shown to <a href="https://www.toronto.ca/wp-content/uploads/2025/07/964b-RapidTO-Eglinton-East-Dashboard-Jan-2022-to-Mar-2023Dec5v2r.pdf" target="_blank">improve travel times and reliability for transit users</a>. They are a clear example of how reallocating space can benefit everyone, not just those who drive.
 		</p>
 		<p>	
-			Similarly, the King Street Transit Priority Corridor in downtown Toronto, a globally recognized success, was fundamentally an exercise in reallocating road space from low-occupancy private vehicles to high-capacity streetcars. By making transit the primary focus, the project moves tens of thousands of people daily <a href="https://www.toronto.ca/services-payments/streets-parking-transportation/transportation-projects/king-street-pilot/data-reports-background-materials/" target="_blank">more efficiently and reliably than before</a>.
+			Similarly, the King Street Transit Priority Corridor in downtown Toronto was an exercise in reallocating road space from low-occupancy private vehicles to high-capacity streetcars. By making transit the primary focus, the project moves tens of thousands of people daily <a href="https://www.toronto.ca/services-payments/streets-parking-transportation/transportation-projects/king-street-pilot/data-reports-background-materials/" target="_blank">more efficiently and reliably than before</a>.
 		</p>
 		<p>
 			Toronto has approximately <strong>1,300 kilometres</strong> of highways, major arterial roads, and minor arterial roads. The vast majority of these roads have TTC surface transit routes and have ample space to add dedicated bus or streetcar lanes to improve transit reliability and travel times. These roads will not truly be effective "arteries" until they are designed to prioritize people who ride public transit, instead of only motor vehicles.
@@ -517,7 +517,7 @@
 		/>
 
 		<h4>
-			Survey of <u>Scarborough</u> residents on which mode should have the "highest priority in terms of space and investment"
+			Survey of <u>Scarborough</u> residents asking which mode should have the "highest priority in terms of space and investment"
 		</h4>
 
 		<BarMode
