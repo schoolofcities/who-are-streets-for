@@ -44,6 +44,7 @@
 
 	<meta name="description" content="More than 80% of street space in Toronto is inequitably dedicated to motor vehicles. How can this be fairly re-designed?" />
 	<meta name="author" content="School of Cities">
+	<meta rel="canonical" href="https://schoolofcities.github.io/who-are-streets-for/">
 
 	<meta property="og:title" content="Who are streets for?" />
 	<meta property="og:description" content="81% of street space in Toronto is inequitably dedicated to motor vehicles. How can this be fairly re-designed?" />
@@ -57,6 +58,15 @@
 	<meta name="twitter:description" content="More than 80% of street space in Toronto is inequitably dedicated to motor vehicles. How can this be fairly re-designed?" />
 	<meta name="twitter:site" content="https://schoolofcities.github.io/who-are-streets-for/" />
 	<meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/who-are-streets-for/main/static/web-card.png" /> 
+
+	<meta name="citation_title" content="Who Are Streets For?">
+	<meta name="citation_author" content="Jeff Allen">
+	<meta name="citation_author" content="Lanrick Bennett Jr.">
+	<meta name="citation_author" content="Mia Wang">
+	<meta name="citation_publication_date" content="2025/09/12">
+	<meta name="citation_journal_title" content="School of Cities">
+	<!-- <meta name="citation_pdf_url" content="https://schoolofcities.utoronto.ca/research.pdf"> -->
+	<meta name="citation_abstract_html_url" content="https://schoolofcities.github.io/who-are-streets-for/">
 
 </svelte:head>
 
